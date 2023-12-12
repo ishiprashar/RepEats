@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#87D29A">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#87D29A"
+        tools:context=".deliverydetails">
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/arrow"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="42dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="620dp"
+            android:src="@drawable/line" />
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="120dp"
+            android:src="@drawable/img_1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Checkout"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="350dp"
+            android:layout_centerHorizontal="true"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="430dp"
+            android:text="Start Date"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="40dp"
+            />
+        <Button
+            android:id="@+id/datePickerButton"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Pick a Date"
+            android:layout_marginTop="470dp"
+            android:layout_marginLeft="40dp"/>
+
+
+        <Button
+            android:id="@+id/paynow"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="610dp"
+            android:layout_marginEnd="45dp"
+            android:background="@drawable/square_button_background"
+            android:text="Pay Now"
+            android:textSize="18dp" />
+        <RadioButton
+            android:id="@+id/onlinepay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Online Payment"
+            android:checked="true"
+            android:layout_marginTop="530dp"
+            android:layout_marginLeft="40dp"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tandc"
+            android:text="I accept all terms and conditions"
+            android:textSize="18dp"
+            android:layout_marginTop="560dp"
+            android:layout_marginLeft="40dp"/>
+
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

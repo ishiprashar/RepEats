@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RepEats"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".checkout"
+            android:exported="false" />
+        <activity
+            android:name=".deliverydetails"
+            android:exported="false" />
+        <activity
+            android:name=".basicinfo"
+            android:exported="false" />
+        <activity
+            android:name=".planinfo"
+            android:exported="false" />
+        <activity
+            android:name=".foodpref"
+            android:exported="false" />
+        <activity
+            android:name=".mealpref"
+            android:exported="false" />
+        <activity
+            android:name=".personalinfo"
+            android:exported="false" />
+        <activity
+            android:name=".newdetails"
+            android:exported="false" />
+        <activity
+            android:name=".existinguser"
+            android:exported="false" />
+        <activity
+            android:name=".SignupLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

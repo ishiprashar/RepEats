@@ -1,0 +1,8 @@
+<!-- res/values/styles.xml -->
+<resources>
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light">
+        <!-- Customize button colors -->
+        <item name="colorPrimary">@color/your_color_primary</item>
+        <item name="colorOnPrimary">@android:color/white</item> <!-- Text color on the button -->
+    </style>
+</resources>

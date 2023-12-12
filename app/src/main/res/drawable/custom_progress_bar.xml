@@ -1,0 +1,28 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Progress Background -->
+    <item android:id="@android:id/background">
+        <shape android:shape="rectangle">
+            <solid android:color="#000000" /> <!-- Black color for progress background -->
+            <corners android:radius="100dp" /> <!-- Adjust the radius as needed -->
+        </shape>
+    </item>
+    <!-- Progress Bar -->
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape android:shape="rectangle">
+                <solid android:color="#00FF00" /> <!-- Green color for progress -->
+                <corners android:radius="40dp" /> <!-- Adjust the radius as needed -->
+            </shape>
+        </clip>
+    </item>
+    <!-- Checkpoint Circle (Initially invisible) -->
+    <item
+        android:id="@+id/checkpoint"
+        android:gravity="center"
+        android:visibility="invisible">
+        <shape android:shape="oval">
+            <solid android:color="#FFFFFF" /> <!-- White color for circle checkpoint -->
+            <size android:width="16dp" android:height="16dp" /> <!-- Adjust size as needed -->
+        </shape>
+    </item>
+</layer-list>

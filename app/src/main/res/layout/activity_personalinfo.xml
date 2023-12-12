@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".personalinfo"
+    android:background="#87D29A">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/img_1"
+    />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_height="match_parent"
+        android:src="@drawable/line"
+        android:layout_marginBottom="620dp"/>
+
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/arrow"
+        android:src="@drawable/arrow"
+        tools:src="@drawable/arrow" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Personal Information"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="120dp"/>
+
+
+        <TextView
+            android:id="@+id/heightLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="380dp"
+            android:text="Height(Feet)" />
+
+        <EditText
+            android:id="@+id/heighted"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="400dp"
+            android:hint="in feet"
+
+            />
+    <TextView
+        android:id="@+id/heightLabel2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="380dp"
+        android:text="Height(Inches)" />
+
+    <EditText
+        android:id="@+id/heighted2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="400dp"
+        android:hint="in inches"/>
+    <TextView
+        android:id="@+id/weightlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="460dp"
+        android:text="Weight(Kgs)" />
+
+    <EditText
+        android:id="@+id/weighted"
+        android:layout_width="350dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="480dp"
+        android:hint="Enter your Weight"
+
+        />
+    <Button
+        android:id="@+id/next2"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="550dp"
+        android:background="@drawable/square_button_background"
+        android:text="Next"
+        android:textSize="18dp" />
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mealpref"
+    android:background="#87D29A">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/img_1"
+        />
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="match_parent"
+        android:src="@drawable/line"
+        android:layout_marginBottom="620dp"/>
+
+    <ImageButton
+        android:id="@+id/backk"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/arrow"
+        android:src="@drawable/arrow"
+        tools:src="@drawable/arrow" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="250dp"
+        android:text="Select Your Diet"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+    <Button
+        android:id="@+id/nutridec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Let nutritionist decide "
+        android:background="@drawable/button_selector"
+        android:layout_marginTop="320dp"
+        android:textSize="15sp"
+        android:layout_marginLeft="120dp"/>
+    <Button
+        android:id="@+id/keto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Ketogenic"
+        android:background="@drawable/button_selector"
+        android:layout_marginTop="380dp"
+        android:textSize="15sp"
+        android:layout_marginLeft="120dp"
+       />
+    <Button
+        android:id="@+id/lowcarb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" low carb"
+        android:background="@drawable/button_selector"
+        android:layout_marginTop="440dp"
+        android:textSize="15sp"
+        android:layout_marginLeft="120dp"
+    />
+    <Button
+        android:id="@+id/bal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" balanced"
+        android:background="@drawable/button_selector"
+        android:layout_marginTop="500dp"
+        android:textSize="15sp"
+        android:layout_marginLeft="120dp"/>
+
+    <Button
+        android:id="@+id/vegan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Vegan"
+        android:background="@drawable/button_selector"
+        android:layout_marginTop="560dp"
+        android:textSize="15sp"
+        android:layout_marginLeft="120dp"/>
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/nutridec"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="65dp"
+        />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ketod"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="65dp"
+        />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/lowcarbd"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="65dp"
+        />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/baland"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="65dp"
+        />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/vegand"
+        android:layout_marginTop="560dp"
+        android:layout_marginLeft="65dp"
+        />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

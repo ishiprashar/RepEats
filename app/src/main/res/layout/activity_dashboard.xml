@@ -1,0 +1,180 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#B5DDAF"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/greeting"
+        android:text=""
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"/>
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textStyle="italic"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/emaildis"
+        android:text=""
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/black"
+        android:textSize="25dp"/>
+
+    <Button
+
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Log Out"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/logout"/>
+
+    <TextView
+        android:id="@+id/down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="400dp"
+        android:layout_height="150dp"
+
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/custom_edittext"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="80dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="3dp"
+                android:layout_marginEnd="37dp"
+                android:text="Your Info: "
+                android:textColor="#001524"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:layout_marginStart="30dp"
+                android:text="Name: "
+                android:textColor="#001524"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:layout_marginStart="100dp"
+                android:text=""
+                android:id="@+id/namesec"
+                android:textSize="20sp"
+                 />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="90dp"
+                android:layout_marginStart="30dp"
+                android:text="Email: "
+                android:textColor="#001524"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="90dp"
+                android:layout_marginStart="100dp"
+                android:text=""
+                android:id="@+id/email1"
+                android:textSize="20sp"
+                />
+
+
+
+
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Customer Support"
+        android:id="@+id/custsup"
+        android:layout_marginTop="450dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#B5DDAF"
+
+
+        />
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="50dp"
+        android:src="@drawable/callimg"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="90dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ask Expert"
+        android:id="@+id/nutrisup"
+        android:layout_marginTop="500dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#B5DDAF"
+
+        />
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:src="@drawable/nutrisup"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="115dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Driver Support"
+        android:id="@+id/driversup"
+        android:layout_marginTop="550dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#B5DDAF"
+
+        />
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/driversup"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="100dp"
+        />
+
+
+
+</RelativeLayout>

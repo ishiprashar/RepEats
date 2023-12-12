@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+<ScrollView
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#87D29A">
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#87D29A">
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/arrow"
+            />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="41dp"
+            android:layout_marginEnd="-14dp"
+            android:layout_marginBottom="620dp"
+            android:src="@drawable/line" />
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="120dp"
+            android:src="@drawable/img_1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Plan Information"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="350dp"
+            android:layout_centerHorizontal="true"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Number of Days:"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="420dp"
+            android:layout_marginLeft="40dp"/>
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="460dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp">
+
+            <RadioButton
+                android:id="@+id/day1"
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:background="@drawable/unselected_button_background"
+                android:layout_marginRight="20dp" />
+
+            <RadioButton
+                android:id="@+id/day14"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="14"
+                android:background="@drawable/unselected_button_background"
+                android:layout_marginRight="20dp" />
+
+            <RadioButton
+                android:id="@+id/day30"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="30"
+                android:background="@drawable/unselected_button_background" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Types of Meal:"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="530dp"
+            android:layout_marginLeft="40dp"/>
+        <CheckBox
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Breakfast"
+            android:id="@+id/breakf"
+            android:textSize="15dp"
+            android:background="@drawable/unselected_button_background"
+            android:layout_marginTop="575dp"
+            android:layout_marginLeft="40dp"
+            />
+        <CheckBox
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Lunch"
+            android:textSize="15dp"
+            android:id="@+id/lunch"
+            android:background="@drawable/unselected_button_background"
+            android:layout_marginTop="575dp"
+            android:layout_marginLeft="150dp"
+            />
+        <CheckBox
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Dinner"
+            android:textSize="15dp"
+            android:id="@+id/dinner"
+            android:background="@drawable/unselected_button_background"
+            android:layout_marginTop="575dp"
+            android:layout_marginLeft="260dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Price:"
+            android:textColor="@color/black"
+            android:layout_marginTop="650dp"
+            android:layout_marginLeft="40dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/pricecalc"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:layout_marginTop="680dp"
+            android:layout_marginLeft="40dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Payment Summary:"
+            android:textColor="@color/black"
+            android:layout_marginTop="750dp"
+            android:layout_marginLeft="40dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Payment Summary:"
+            android:textColor="@color/black"
+            android:layout_marginTop="750dp"
+            android:layout_marginLeft="40dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Sub Total"
+            android:layout_marginTop="780dp"
+            android:layout_marginLeft="40dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Gst"
+            android:layout_marginTop="810dp"
+            android:layout_marginLeft="40dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Delivery Charges"
+            android:layout_marginTop="840dp"
+            android:layout_marginLeft="40dp"
+            />
+
+
+        <Button
+            android:id="@+id/nextplan"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1000dp"
+            android:background="@drawable/square_button_background"
+            android:layout_centerHorizontal="true"
+            android:text="Next"
+            android:textSize="18dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text=""
+            android:id="@+id/gst"
+            android:layout_marginTop="810dp"
+            android:layout_marginLeft="330dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text=""
+            android:id="@+id/subtot"
+            android:layout_marginTop="780dp"
+            android:layout_marginLeft="330dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text=""
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="780dp"
+            android:id="@+id/subtotaldisplay"/>
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text=""
+            android:id="@+id/gstdisplay"
+            android:layout_marginTop="810dp"
+            android:layout_marginLeft="300dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Rs.500"
+            android:layout_marginTop="840dp"
+            android:layout_marginLeft="330dp"
+            />
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="match_parent"
+
+            android:layout_marginTop="870dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="620dp"
+            android:src="@drawable/line" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="You Pay :"
+            android:layout_marginTop="900dp"
+            android:layout_marginLeft="42dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text=""
+            android:id="@+id/overalltotal"
+            android:layout_marginTop="900dp"
+            android:layout_marginLeft="290dp"/>
+
+
+
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

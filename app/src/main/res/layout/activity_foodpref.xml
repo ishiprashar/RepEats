@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".foodpref"
+    android:background="#87D29A">
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/img_1"/>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="match_parent"
+        android:src="@drawable/line"
+        android:layout_marginBottom="620dp"/>
+
+    <ImageButton
+        android:id="@+id/backk"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/arrow"
+        android:src="@drawable/arrow"
+        tools:src="@drawable/arrow" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="340dp"
+        android:text="Meal Preferences"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+    <Button
+        android:id="@+id/veg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vegetarian"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_selector"
+        android:layout_marginTop="390dp"
+        android:textSize="15sp"
+        android:layout_marginLeft="64dp"/>
+    <Button
+        android:id="@+id/egg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Eggeterian"
+        android:background="@drawable/button_selector"
+        android:layout_marginTop="460dp"
+        android:textSize="15sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="250dp"
+        />
+    <Button
+        android:id="@+id/nonveg"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="Non-vegetarian"
+        android:background="@drawable/button_selector"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="530dp"
+        android:textSize="14sp"
+        android:layout_marginLeft="290dp"
+        />
+
+
+</RelativeLayout>

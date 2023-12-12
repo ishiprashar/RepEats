@@ -1,0 +1,9 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/button_normal" />
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="#FFFFFF" /> <!-- Change this to your desired hover/pressed color -->
+            <corners android:radius="8dp" /> <!-- Match the corner radius from button_normal.xml -->
+        </shape>
+    </item>
+</layer-list>

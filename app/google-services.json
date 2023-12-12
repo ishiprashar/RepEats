@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "70293524264",
+    "project_id": "repeats-dc415",
+    "storage_bucket": "repeats-dc415.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:70293524264:android:041adc86ea8c46cd8e0a1d",
+        "android_client_info": {
+          "package_name": "com.RepEats"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7tY-xymB06lI0aR60fMoH4t7NS9deIbU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:70293524264:android:3c126c2920170fdf8e0a1d",
+        "android_client_info": {
+          "package_name": "com.example.repeats"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7tY-xymB06lI0aR60fMoH4t7NS9deIbU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

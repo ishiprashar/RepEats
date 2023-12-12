@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".newdetails"
+    android:background="#87D29A">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/img_1"
+        />
+
+    <ImageView
+        android:layout_width="320dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="145dp"
+        android:src="@drawable/signs"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_height="match_parent"
+        android:src="@drawable/line"
+       android:layout_marginBottom="620dp"/>
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/arrow"
+        android:src="@drawable/arrow"
+            />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Set Your Goal"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="120dp"
+
+        />
+    <Button
+        android:id="@+id/lw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Lose Weight "
+        android:background="@drawable/button_selector"
+        android:layout_marginTop="470dp"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"/>
+    <ImageView
+
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:src="@drawable/lw"
+        android:layout_marginTop="470dp"
+        android:layout_marginLeft="97dp"
+        />
+    <Button
+        android:id="@+id/gm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Gain Muscle "
+        android:background="@drawable/button_selector"
+        android:layout_marginTop="530dp"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"/>
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:src="@drawable/gm"
+        android:layout_marginTop="530dp"
+        android:layout_marginLeft="89dp"
+        />
+
+    <Button
+        android:id="@+id/wm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="590dp"
+        android:background="@drawable/button_selector"
+        android:text=" Weight Maintenance "
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:src="@drawable/wm"
+        android:layout_marginTop="590dp"
+        android:layout_marginLeft="89dp"
+        />
+
+
+
+
+</RelativeLayout>
